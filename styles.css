@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.split {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  border: 2px solid #333;
+}
+
+.left, .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  background: #222;
+}
+
+.left a {
+  color: #fff;
+}
+
+.right {
+  background: #ddd;
+}
